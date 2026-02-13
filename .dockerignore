@@ -1,0 +1,61 @@
+# Git 相关
+.git
+.github
+.gitignore
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 测试和覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# 文档和脚本
+README.md
+cc-fall-2025.md
+*.md
+server-setup.sh
+start.sh
+stop.sh
+
+# Docker 相关
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+
+# 截图和图片（如果不需要的话）
+screenshot-*.png
+images/
+
+# GitHub Actions
+.github/
+python-app.yml
