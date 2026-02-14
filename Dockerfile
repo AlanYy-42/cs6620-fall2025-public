@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 暴露应用端口（根据截图，应用运行在 3000 端口）
-EXPOSE 3000
+EXPOSE 5000
 
 # 设置环境变量
 ENV FLASK_APP=app.py
